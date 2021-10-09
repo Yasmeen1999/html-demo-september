@@ -1,0 +1,149 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+/* rule */
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+}
+
+/* .box {
+  width: 100px;
+  height: 100px;
+  /* background-color: rgba(222, 20, 57, 1); */
+/* background: linear-gradient(to right bottom, blue, yellow); */
+/* border: 5px solid tomato; */
+/* border-color: blue;
+  border-width: 3px;
+  border-style: ridge; */
+/* } */
+
+/* Colors */
+/* 
+1.RGBA - Transperancy (0 to 1)
+2.HexaDecimal - 
+3.CMYK
+4.HSL
+*/
+
+/* 
+Binary -> 0,1
+Decimal -> 0 to 9
+HexaDecimal - (0 to 9, A to F)
+*/
+
+/* width and height Apllies to contet area */
+/* .box {
+  width: 500px;
+  height: 500px;
+  border: 5px solid gold;
+  padding: 20px;
+  background-color: brown;
+} */
+/* 550 550 */
+/* 
+.box2 {
+  background-color: blue;
+} */
+
+/* .box {
+  width: 200px;
+  height: 200px;
+  background-color: cadetblue;
+  display: inline-block;
+}
+
+.product {
+  height: 300px;
+  width: 300px;
+  background-color: hotpink;
+  display: inline-block;
+} */
+
+/* Float */
+
+/* .box {
+  width: 300px;
+  height: 300px;
+  background-color: cadetblue;
+  margin: 5px;
+  float: left; */
+/* }
+
+.box1 {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  float: left;
+  background-color: tomato;
+}
+
+.box2 {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  float: left;
+  background-color: gold;
+}
+
+.clear {
+  clear: right;
+} */
+
+/* .box {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  float: left;
+  background-color: tomato;
+}
+
+.box1 {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  float: left;
+  background-color: gold;
+} */
+
+/* Measuring Units */
+
+/* Absolute */
+/* px */
+/* pt */
+/* cm */
+/* 
+
+
+*/
+/* Realtive */
+
+/* 
+em
+rem
+
+vh
+vw
+
+% for width and height container
+
+*/
+/* vh, vw */
+
+.box {
+  width: 50vw;
+  height: 100vh;
+  background-color: aqua;
+  float: left;
+  font-family: "Karla";
+}
+
+.box1 {
+  width: 50vw;
+  height: 100vh;
+  /* background-color: tomato; */
+  float: left;
+  background-colo: hsl(71, 73%, 54%);
+}
